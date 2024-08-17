@@ -44,7 +44,7 @@ ports:
 # annoying to have it open at every workspace startup, though, so it is now
 # ignored.
   - port: 6080
-    onOpen: ignore
+    onOpen: open-preview
 # mochitest
   - port: 8888
     onOpen: ignore
